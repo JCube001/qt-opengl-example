@@ -15,14 +15,18 @@ TEMPLATE = app
 SOURCES += \
     src/mainwindow.cpp \
     src/main.cpp \
-    src/helloglwidget.cpp
+    src/helloglwidget.cpp \
+    src/boxglwidget.cpp
 
 HEADERS  += \
     src/mainwindow.h \
-    src/helloglwidget.h
+    src/helloglwidget.h \
+    src/boxglwidget.h
 
 FORMS    += \
     ui/mainwindow.ui
 
 RESOURCES += \
     src/glexamples.qrc
+
+INCLUDEPATH += src
