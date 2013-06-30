@@ -3,6 +3,8 @@
 
 #include <QGLWidget>
 #include <QGLShaderProgram>
+#include <QMouseEvent>
+#include <QWheelEvent>
 
 class BoxGLWidget : public QGLWidget
 {
